@@ -1,3 +1,7 @@
 {
-  "extends": "@react-native/typescript-config/tsconfig.json"
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    // TypeScript가 styled-componets의 타입을 인식할 수 있도록 하기 위해
+    "types": ["@types/styled-components-react-native"]
+  }
 }

@@ -10,6 +10,8 @@
     "test": "jest"
   },
   "dependencies": {
+    "lottie-ios": "^4.3.3",
+    "lottie-react-native": "^6.4.1",
     "react": "18.2.0",
     "react-native": "0.73.0",
     "react-native-vector-icons": "^10.0.2",
