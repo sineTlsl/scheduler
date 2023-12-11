@@ -1,10 +1,11 @@
 import React from 'react';
-import LoginPage from './pages/Login';
 import styled from 'styled-components/native';
 import { ThemeProvider } from 'styled-components/native';
-import theme from './styles/theme';
+import LoginPage from './pages/Login';
+import { customTheme } from './styles/theme';
+import { DefaultTheme } from 'styled-components/native';
 
-const Container = styled.SafeAreaView`
+const Container = styled.SafeAreaView<{ theme: DefaultTheme }>`
   height: 100%;
   display: flex;
   align-items: center;
@@ -14,7 +15,7 @@ const Container = styled.SafeAreaView`
 
 function App(): React.JSX.Element {
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={customTheme}>
       <Container>
         <LoginPage />
       </Container>

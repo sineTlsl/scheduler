@@ -7,8 +7,5 @@ declare module 'styled-components/native' {
       white: string;
       black: string;
     };
-    fonts: {
-      normal: string;
-    };
   }
 }
