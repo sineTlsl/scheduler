@@ -1,11 +1,9 @@
 import React from 'react';
-import styled from 'styled-components/native';
-import { ThemeProvider } from 'styled-components/native';
-import LoginPage from './pages/Login';
-import { customTheme } from './styles/theme';
-import { DefaultTheme } from 'styled-components/native';
+import styled, { ThemeProvider } from 'styled-components/native';
+import LoginPage from '@pages/Login';
+import { customTheme } from '@styles/theme';
 
-const Container = styled.SafeAreaView<{ theme: DefaultTheme }>`
+const Container = styled.SafeAreaView`
   height: 100%;
   display: flex;
   align-items: center;
