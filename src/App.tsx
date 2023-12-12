@@ -1,22 +1,16 @@
 import React from 'react';
-import styled, { ThemeProvider } from 'styled-components/native';
-import LoginPage from '@pages/Login';
-import { customTheme } from '@styles/theme';
+import { ThemeProvider } from 'styled-components/native';
+import Theme from '@styles/theme';
 
-const Container = styled.SafeAreaView`
-  height: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  background: ${props => props.theme.colors.mainBg};
-`;
+// pages
+// import LoginPage from 'screens/Login';
+import TodayPlanPage from '@screens/TodayPlan';
 
 function App(): React.JSX.Element {
   return (
-    <ThemeProvider theme={customTheme}>
-      <Container>
-        <LoginPage />
-      </Container>
+    <ThemeProvider theme={Theme}>
+      {/* <LoginPage /> */}
+      <TodayPlanPage />
     </ThemeProvider>
   );
 }

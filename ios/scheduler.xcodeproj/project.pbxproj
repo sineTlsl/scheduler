@@ -18,12 +18,12 @@
 		7699B88040F8A987B510C191 /* libPods-scheduler-schedulerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-scheduler-schedulerTests.a */; };
 		774D0D8650044BEA883D392C /* NotoSansKR-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 258FD1377F9040FB8661C4E4 /* NotoSansKR-Black.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		92B1D22EAA9F4FA7BF63D0B6 /* PermanentMarker-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F5D7A261C924E2A9EB72319 /* PermanentMarker-Regular.ttf */; };
 		BC466F3BD04C4F5FB60C397E /* NotoSansKR-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAD85D48847641CB8AB6AE67 /* NotoSansKR-Light.ttf */; };
 		BEDD4DD56D494F2BA63D9B3B /* NotoSansKR-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54C48EB1F93D45128B5AA375 /* NotoSansKR-ExtraBold.ttf */; };
 		D9561D39174F4F77B17C0F66 /* NotoSansKR-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22A70592456544C7A097343A /* NotoSansKR-Regular.ttf */; };
 		E71B683560C748D494B66849 /* NotoSansKR-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBC347FE6D074A3893497892 /* NotoSansKR-Thin.ttf */; };
 		EAE02741A21D42D5A6825935 /* NotoSansKR-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C1506209B7449F6AF011ADE /* NotoSansKR-ExtraLight.ttf */; };
-		92B1D22EAA9F4FA7BF63D0B6 /* PermanentMarker-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F5D7A261C924E2A9EB72319 /* PermanentMarker-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +50,7 @@
 		22A70592456544C7A097343A /* NotoSansKR-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansKR-Regular.ttf"; path = "../assets/fonts/NotoSansKR-Regular.ttf"; sourceTree = "<group>"; };
 		258FD1377F9040FB8661C4E4 /* NotoSansKR-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansKR-Black.ttf"; path = "../assets/fonts/NotoSansKR-Black.ttf"; sourceTree = "<group>"; };
 		2682CE8DAAB7434F928362CD /* NotoSansKR-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansKR-SemiBold.ttf"; path = "../assets/fonts/NotoSansKR-SemiBold.ttf"; sourceTree = "<group>"; };
+		2F5D7A261C924E2A9EB72319 /* PermanentMarker-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PermanentMarker-Regular.ttf"; path = "../assets/fonts/PermanentMarker-Regular.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-scheduler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scheduler.debug.xcconfig"; path = "Target Support Files/Pods-scheduler/Pods-scheduler.debug.xcconfig"; sourceTree = "<group>"; };
 		54C48EB1F93D45128B5AA375 /* NotoSansKR-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansKR-ExtraBold.ttf"; path = "../assets/fonts/NotoSansKR-ExtraBold.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-scheduler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scheduler.release.xcconfig"; path = "Target Support Files/Pods-scheduler/Pods-scheduler.release.xcconfig"; sourceTree = "<group>"; };
@@ -91,7 +92,6 @@
 		E220C801B8A84431A5EEC97C /* NotoSansKR-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansKR-Bold.ttf"; path = "../assets/fonts/NotoSansKR-Bold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAD85D48847641CB8AB6AE67 /* NotoSansKR-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansKR-Light.ttf"; path = "../assets/fonts/NotoSansKR-Light.ttf"; sourceTree = "<group>"; };
-		2F5D7A261C924E2A9EB72319 /* PermanentMarker-Regular.ttf */ = {isa = PBXFileReference; name = "PermanentMarker-Regular.ttf"; path = "../assets/fonts/PermanentMarker-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

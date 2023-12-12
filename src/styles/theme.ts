@@ -5,6 +5,7 @@ const customTheme: DefaultTheme = {
     mainBg: '#59748e',
     white: '#FFFFFF',
     black: '#000000',
+    blacklight: '#575757',
   },
 };
 

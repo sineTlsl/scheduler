@@ -1,14 +1,16 @@
 {
-  "extends": "@react-native/typescript-config/tsconfig.json",
+  "extends": "@tsconfig/react-native/tsconfig.json",
   "compilerOptions": {
     "baseUrl": "./src",
     "paths": {
       "@types/*": ["types/*"],
       "@components/*": ["components/*"],
-      "@pages/*": ["pages/*"],
+      "@screens/*": ["screens/*"],
       "@styles/*": ["styles/*"]
     },
     // TypeScript가 styled-componets의 타입을 인식할 수 있도록 하기 위해
-    "types": ["@types/styled-components-react-native"]
-  }
+    "types": ["@types/styled-components-react-native"],
+    "strict": true
+  },
+  "exclude": ["node_modules"]
 }

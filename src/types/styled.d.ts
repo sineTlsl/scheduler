@@ -6,6 +6,7 @@ declare module 'styled-components/native' {
       mainBg: string;
       white: string;
       black: string;
+      blacklight: string;
     };
   }
 }
