@@ -1,16 +1,17 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components/native';
-import Theme from '@styles/theme';
+import { customTheme } from '@styles/theme';
+import { NavigationContainer } from '@react-navigation/native';
 
-// pages
-// import LoginPage from 'screens/Login';
-import TodayPlanPage from '@screens/TodayPlan';
+// components
+import TabNavigator from '@components/TabNavigator';
 
 function App(): React.JSX.Element {
   return (
-    <ThemeProvider theme={Theme}>
-      {/* <LoginPage /> */}
-      <TodayPlanPage />
+    <ThemeProvider theme={customTheme}>
+      <NavigationContainer>
+        <TabNavigator />
+      </NavigationContainer>
     </ThemeProvider>
   );
 }
