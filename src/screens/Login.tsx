@@ -1,16 +1,13 @@
 import React from 'react';
 import styled from 'styled-components/native';
-import { useTheme } from 'styled-components/native';
 
 // components
 import LoginBtn from '@components/LoginBtn';
 import LottieSnowMan from '@components/LottieSnowMan';
 
 export default function LoginPage() {
-  const theme = useTheme();
-
   return (
-    <SafeAreaView background={theme.colors.mainBg}>
+    <SafeAreaView>
       <LoginContainer>
         <DescView>
           <LottieSnowMan />
@@ -27,6 +24,7 @@ export default function LoginPage() {
 
 const SafeAreaView = styled.SafeAreaView`
   flex: 1;
+  background: ${({ theme }) => theme.colors.mainBg};
 `;
 
 const LoginContainer = styled.View`

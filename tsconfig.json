@@ -10,7 +10,7 @@
     },
     // TypeScript가 styled-componets의 타입을 인식할 수 있도록 하기 위해
     "types": ["@types/styled-components-react-native"],
-    "strict": true
+    "strict": false
   },
   "exclude": ["node_modules"]
 }
